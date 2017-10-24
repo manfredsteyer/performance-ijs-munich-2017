@@ -5,8 +5,8 @@ import { ChangeDetectionStrategy, Component, ElementRef, EventEmitter, Input, Ng
   selector: 'flight-card',
   templateUrl: './flight-card.component.html',
   styleUrls: ['./flight-card.component.css'],
-  preserveWhitespaces: false
-  // changeDetection: ChangeDetectionStrategy.OnPush
+  preserveWhitespaces: false,
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class FlightCardComponent implements OnInit {
 
